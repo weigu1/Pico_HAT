@@ -2,6 +2,8 @@
 
 ![pico hat](png/pico_hat_600.png "pico hat")
 
+## All infos on: <http://www.weigu.lu/microcontroller/pico_hat/index.html>
+
 ## Some infos
 
 The Pico connects to all the sensors and actuators and can act in `Real Time`. The Raspi can do the rest (Wifi, Webserver, MQTT, Display ...). The Pico is an I²C slave to the Raspi and the Raspi sends commands with a Python script to the Pico. An Arduino program on the Pico answers with sensor data or by switching an actuator.
@@ -43,4 +45,4 @@ The circuit is designed with KiCAD and is open hardware. The following headers a
 | `H1x4` | GND | GPIO21 | GPIO20 | GPIO19 | GPIO18 | 3.3&#8239;V (or 5&#8239;V) |
 | `H2x4` | GND | GPIO2 | GPIO3 | GPIO4 | GPIO5 | 3.3&#8239;V | 5&#8239;V |
 
-## Much more infos on: <weigu.lu/microcontroller/pico_hat/index.html>
+
