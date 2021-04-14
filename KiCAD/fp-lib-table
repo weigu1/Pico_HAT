@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name pico_on_raspi)(type KiCad)(uri ${KIPRJMOD}/pico_on_raspi.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+
+<head>
+<title>microcontroller projects</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="KEYWORDS" content="AVR, Atmel, ATmega, USB, T3EC, Mikrocontroller, microcontroller, AssemblerMikrocontrollerkurs, Kurs, Kursus, Programmieren,Techniker, Kommunikation,Nachrichtentechnik, Kommunikationstechniker, USB, HID, Bulk, Bibliothek, MICEL,AT90USBKEY, Teensy, MICES2, Experimentierboard, FTDI, EIA232, 232, Nissan,Leaf, Logger, Leafcan, OBD2, arduino, alarmclock, clock, alarm, small, lib,libs, CO22, Arduino, DIY, cellphone, mellis, Kyub, Midi, Music, hacks, can,bus,  rt, soldering, station, weller, creative, lab, creative-lab,ammeter,measuring, teensylogger, datalogger, logger, measuring, energy, energylogger,Arduino, Wemos, ESP8266, MQTT" />
+  <meta name="viewport" content="height=device-height,width=device-width, initial-scale=0.5, minimum-scale=0.2, maximum-scale=1.0, user-scalable=yes, target-densitydpi=device-dpi">
+  <link rel="icon" type="image/x-icon" href="../../../png/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="../../../index.css" />
+</head>
+
+<body id="pyshp_2">
+
+<!-- Header -->
+<div id="header">
+<p id="menu0"></p>  <!-- fuer das Logo -->
+
+<ul id="menu1">
+  <li id="m1home"><a href="../../../index.html" title="home">home</a></li>
+  <li id="m11"><a href="../../../energy/index.html" title="energy">energy</a></li>
+  <li class = "mact" id="m12"><a href="../../../microcontroller/index.html" title="microcontroller">microcontroller</a></li>
+  <li id="m13"><a href="../../../music/index.html" title="music">music</a></li>
+  <li id="m14"><a href="../../../other_projects/index.html" title="other_projects">other_projects</a></li>
+  <li id="m15"><a href="../../../sb-computer/index.html" title="sb-computer">sb-computer</a></li>
+  <li id="m16"><a href="../../../tutorials/index.html" title="tutorials">tutorials</a></li>
+</ul><!-- menu1 -->
+</div><!-- Header -->
+<!-- Sidebar -->
+<div id="csidebar_2">
+<br />
+<ul id="sidebar_2">
+  <li><a href="../index.html" title="microcontroller">microcontroller</a></li>
+  <li ><a href="../../alarm_clock/index.html" title="alarm_clock">alarm_clock</a></li>
+  <li ><a href="../../ardlib_NT7534/index.html" title="ardlib_NT7534">ardlib_NT7534</a></li>
+  <li ><a href="../../ardlib_NT7534_I2C/index.html" title="ardlib_NT7534_I2C">ardlib_NT7534_I2C</a></li>
+  <li ><a href="../../ardlib_SSD1322_I2C/index.html" title="ardlib_SSD1322_I2C">ardlib_SSD1322_I2C</a></li>
+  <li ><a href="../../avr_MICES2_2_arduino/index.html" title="avr_MICES2_2_arduino">avr_MICES2_2_arduino</a></li>
+  <li ><a href="../../avr_exp_board_MICES2/index.html" title="avr_exp_board_MICES2">avr_exp_board_MICES2</a></li>
+  <li ><a href="../../avr_isp_mk2/index.html" title="avr_isp_mk2">avr_isp_mk2</a></li>
+  <li ><a href="../../avr_usb_libs/index.html" title="avr_usb_libs">avr_usb_libs</a></li>
+  <li ><a href="../../cable_tester/index.html" title="cable_tester">cable_tester</a></li>
+  <li ><a href="../../cl_iot_board/index.html" title="cl_iot_board">cl_iot_board</a></li>
+  <li ><a href="../../co22_mm_station/index.html" title="co22_mm_station">co22_mm_station</a></li>
+  <li ><a href="../../co2_sa1200p_hacks/index.html" title="co2_sa1200p_hacks">co2_sa1200p_hacks</a></li>
+  <li ><a href="../../diy_cellphone/index.html" title="diy_cellphone">diy_cellphone</a></li>
+  <li ><a href="../../esp_programmer/index.html" title="esp_programmer">esp_programmer</a></li>
+  <li ><a href="../../ev_charging_station/index.html" title="ev_charging_station">ev_charging_station</a></li>
+  <li ><a href="../../fine_dust/index.html" title="fine_dust">fine_dust</a></li>
+  <li ><a href="../../ghidra_nsa/index.html" title="ghidra_nsa">ghidra_nsa</a></li>
+  <li ><a href="../../leafcanlog/index.html" title="leafcanlog">leafcanlog</a></li>
+  <li ><a href="../../lora_p2p/index.html" title="lora_p2p">lora_p2p</a></li>
+  <li ><a href="../../neo_clock/index.html" title="neo_clock">neo_clock</a></li>
+  <li ><a href="../../neo_lamp/index.html" title="neo_lamp">neo_lamp</a></li>
+  <li ><a href="../../osciclock/index.html" title="osciclock">osciclock</a></li>
+  <li class = "sbact" ><a href="../../pico_hat/index.html" title="pico_hat">pico_hat</a></li>
+  <li ><a href="../../rover/index.html" title="rover">rover</a></li>
+  <li ><a href="../../rt_soldering_station/index.html" title="rt_soldering_station">rt_soldering_station</a></li>
+  <li ><a href="../../smartyReader/index.html" title="smartyReader">smartyReader</a></li>
+  <li ><a href="../../smartyReader_LED/index.html" title="smartyReader_LED">smartyReader_LED</a></li>
+  <li ><a href="../../smartyReader_P1/index.html" title="smartyReader_P1">smartyReader_P1</a></li>
+  <li ><a href="../../smartyReader_P1_x5/index.html" title="smartyReader_P1_x5">smartyReader_P1_x5</a></li>
+  <li ><a href="../../stm32/index.html" title="stm32">stm32</a></li>
+  <li ><a href="../../teensylogger/index.html" title="teensylogger">teensylogger</a></li>
+  <li ><a href="../../thermostat_hacks_and_lib/index.html" title="thermostat_hacks_and_lib">thermostat_hacks_and_lib</a></li>
+  <li ><a href="../../tips_tricks/index.html" title="tips_tricks">tips_tricks</a></li>
+  <li ><a href="../../usb_ammeter/index.html" title="usb_ammeter">usb_ammeter</a></li>
+  <li ><a href="../../useless_box/index.html" title="useless_box">useless_box</a></li>
+  <li class = "sbact" ><a href="../git/index.html" title="git">git</a></li>
+  <li><a href="../../..//news.html" title="news">news</a></li>
+  <li><a href="../../..//sitemap.html" title="sitemap">sitemap</a></li>
+  <li class ="up"><a href="index.html" title="up">UP (if down :))         </a></li>
+</ul>
+</div><!-- Sidebar -->
+
+<!-- Content -->
+<div id="content_2">
+<h1>Microcontroller projects</h1>
+
+<p>last updated: 2021-04-14</p>
+
+<h2>Pico-HAT: Connect your Raspi with the Pico through I²C</h2>
+
+<p><center><a href="png/pico_hat.png"><img src="png/pico_hat_600.png" alt="pico hat" title="pico hat" /></a></center></p>
+
+<h3>Introduction</h3>
+
+<p>My Mechanical Ventilation Heat Recovery (MVHR) system <a href="http://weigu.lu/sb-computer/piventi/index.html">PIVENTI</a> runs on a Raspi with attached Teensy 2.0 board. As the Raspi has not enough Serial interfaces I chose I²C for the communication, and this is running very well.<br>A next step will be the renewing of my heating control. And here I want to try the new Raspi Pico with RP2040 µC.</p>
+
+<p>The Pico connects to all the sensors and actuators and can act in <code>Real Time</code>. The Raspi can do the rest (Wifi, Webserver, MQTT, Display ...). The Pico is an I²C slave to the Raspi and the Raspi sends commands with a Python script to the Pico. An Arduino program on the Pico answers with sensor data or by switching an actuator.</p>
+
+<p>As the Arduino IDE runs on a Raspi, both device (Raspi and Pico) can be reprogrammed via VNC from any computer, and I find this pretty amazing :).</p>
+
+<p>To be flexible I and to enhance my KiCAD skills I designed a HAT (Hardware Attached on Top) with multiple headers to connect the sensors and actuators.</p>
+
+<h3>The Pico-HAT</h3>
+
+<h4>Features</h4>
+
+<ul>
+<li><p>The Raspi is connected through I²C with the Pico. Serial is prepared if needed (by adding 2 0&#8239;Ω resistors).</p></li>
+<li><p>The Pico can be powered over USB (recommended if you want to reprogram it via Arduino IDE and VNC) or through the Raspi (5&#8239;V).</p></li>
+<li><p>All GPIOs have the possibility to add a voltage divider to reduce the input voltage (e.g. 5&#8239;V to 3.3&#8239;V), or to add an external pull-down resistor.</p></li>
+<li><p>All headers have beneath a ground pin, one or two power pins (3.3&#8239;V or 5&#8239;V; <code>H2</code> headers: 3.3&#8239;V and 5&#8239;V).</p></li>
+<li><p>Additionally we get a RESET-button, an <code>SWD</code> header, 2 power header (3.3&#8239;V and 5&#8239;V), 2 Ground pins, an an 3V3_EN and ADC_VREF pins.</p></li>
+</ul>
+
+<h4>Circuit</h4>
+
+<p>The circuit is designed with KiCAD. The HAT is open hardware and can be downloaded <a href="">here</a>.</p>
+
+<p><center><a href="png/pico_hat_circuit.png"><img src="png/pico_hat_circuit_900.png" alt="pico hat circuit" title="pico hat circuit" /></a></center></p>
+
+<p><center><a href="png/pico_hat_pcb_front.png"><img src="png/pico_hat_pcb_front_450.png" alt="pico hat pcb front" title="pico hat pcb front" /></a>&#8239;&#8239;<a href="png/pico_hat_pcb_back.png"><img src="png/pico_hat_pcb_back_450.png" alt="pico hat pcb back" title="pico hat pcb back" /></a></center></p>
+
+<h4>PCB</h4>
+
+<p>The PCBs arrived :).</p>
+
+<p><center><a href="png/picohat_pcbway.png"><img src="png/picohat_pcbway_600.png" alt="pico hat circuit" title="pico hat circuit" /></a></center></p>
+
+<p>The PCB needs only the Pico, and the Raspi header and if desired the two capacitors (C1 220µF and C2 100nF) and the RESET button. And naturally the headers you need. All headers are 2.54&#8239;mm. You can use Dupont headers, but Molex headers are better suited because they prevent polarity reversal. You can also use JST-connectors if you don't populate all the headers (they may be a little to wide).</p>
+
+<p><center><a href="png/pico_hat_min_soldering.png"><img src="png/pico_hat_min_soldering_600.png" alt="pico hat circuit" title="pico hat circuit" /></a></center></p>
+
+<h4>The headers</h4>
+
+<table>
+<thead>
+<tr>
+  <th>Name</th>
+  <th>Pin 1</th>
+  <th>Pin 2</th>
+  <th>Pin 3</th>
+  <th>Pin 5</th>
+  <th>Pin 5</th>
+  <th>Pin 6</th>
+  <th>Pin 7</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><code>5V_Pico</code></td>
+  <td>GND</td>
+  <td>5&#8239;V</td>
+</tr>
+<tr>
+  <td><code>3V3_Pico</code></td>
+  <td>GND</td>
+  <td>3.3&#8239;V</td>
+</tr>
+<tr>
+  <td><code>SWD</code></td>
+  <td>SWDIO</td>
+  <td>GND</td>
+  <td>SWCLK</td>
+</tr>
+<tr>
+  <td><code>H1_ADC0</code></td>
+  <td>GND</td>
+  <td>ADC0 (GPIO26)</td>
+  <td>3.3&#8239;V</td>
+</tr>
+<tr>
+  <td><code>H2_ADC1</code></td>
+  <td>GND</td>
+  <td>ADC1 (GPIO27)</td>
+  <td>3.3&#8239;V</td>
+</tr>
+<tr>
+  <td><code>H3_ADC2</code></td>
+  <td>GND</td>
+  <td>ADC2 (GPIO28)</td>
+  <td>3.3&#8239;V</td>
+</tr>
+<tr>
+  <td><code>H1x1</code></td>
+  <td>GND</td>
+  <td>GPIO22</td>
+  <td>3.3&#8239;V (or 5&#8239;V)</td>
+</tr>
+<tr>
+  <td><code>H3x1</code></td>
+  <td>GND</td>
+  <td>GPIO13</td>
+  <td>3.3&#8239;V (or 5&#8239;V)</td>
+</tr>
+<tr>
+  <td><code>H4x1</code></td>
+  <td>GND</td>
+  <td>GPIO12</td>
+  <td>3.3&#8239;V (or 5&#8239;V)</td>
+</tr>
+<tr>
+  <td><code>H2x1</code></td>
+  <td>GND</td>
+  <td>GPIO12</td>
+  <td>3.3&#8239;V</td>
+  <td>5&#8239;V</td>
+</tr>
+<tr>
+  <td><code>H1x2</code><br>&#8239;</td>
+  <td>GND<br>&#8239;</td>
+  <td>GPIO17<br>(alt. RX0-TX_Raspi)</td>
+  <td>GPIO16<br>(alt. TX0-RX_Raspi)</td>
+  <td>3.3&#8239;V (or 5&#8239;V)<br>&#8239;</td>
+</tr>
+<tr>
+  <td><code>H3x2</code></td>
+  <td>GND</td>
+  <td>GPIO10</td>
+  <td>GPIO11</td>
+  <td>3.3&#8239;V (or 5&#8239;V)</td>
+</tr>
+<tr>
+  <td><code>H4x2</code></td>
+  <td>GND</td>
+  <td>GPIO6</td>
+  <td>GPIO7</td>
+  <td>3.3&#8239;V (or 5&#8239;V)</td>
+</tr>
+<tr>
+  <td><code>H2x2</code></td>
+  <td>GND</td>
+  <td>GPIO8</td>
+  <td>GPIO9</td>
+  <td>3.3&#8239;V</td>
+  <td>5&#8239;V</td>
+</tr>
+<tr>
+  <td><code>H1x4</code></td>
+  <td>GND</td>
+  <td>GPIO21</td>
+  <td>GPIO20</td>
+  <td>GPIO19</td>
+  <td>GPIO18</td>
+  <td>3.3&#8239;V (or 5&#8239;V)</td>
+</tr>
+<tr>
+  <td><code>H2x4</code></td>
+  <td>GND</td>
+  <td>GPIO2</td>
+  <td>GPIO3</td>
+  <td>GPIO4</td>
+  <td>GPIO5</td>
+  <td>3.3&#8239;V</td>
+  <td>5&#8239;V</td>
+</tr>
+</tbody>
+</table>
+
+<h5>Changing from 3.3&#8239;V to 5&#8239;V and adding a voltage divider to get a 5&#8239;V input</h5>
+
+<ul>
+<li><p>Changing from 3.3&#8239;V to 5&#8239;V:<br>With a cutter cut the connection to 3.3&#8239;V inside the SMD pad, and solder a 0&#8239;Ω SMD resistor (0805) to 5&#8239;V. As an example we will do this for the Header <code>H3x1</code>. The circuit tells us, that we need to cut <code>R7</code> and solder an 0&#8239;Ω resistor to <code>R8</code>.</p></li>
+<li><p>Adding a voltage divider to get a 5&#8239;V input:<br>With the same header <code>H3x1</code> we have to cut <code>R16</code> and solder two resistors. We choose 22&#8239;kΩ for <code>R16</code> and 39&#8239;kΩ for <code>R25</code>. This gives us 5&#8239;V*39&#8239;kΩ/(22+39)&#8239;kΩ = 3.2&#8239;V.</p></li>
+</ul>
+
+<p>In the following image we see the changes. I also added a pull-up resistor (GPIO13-5&#8239;V), because I need the header for a 1-Wire bus.</p>
+
+<p><center><a href="png/pico_hat_circuit_mods.png"><img src="png/pico_hat_circuit_mods_450.png" alt="pico hat pcb back" title="pico hat pcb back" /></a>&#8239;&#8239;&#8239;&#8239;&#8239;&#8239;<a href="png/pico_hat_circuit_mods_picture.png"><img src="png/pico_hat_circuit_mods_picture_450.png" alt="pico hat pcb back" title="pico hat pcb back" /></a></center></p>
+
+<p>After soldering the headers the HAT can be mounted to the Raspi:</p>
+
+<p><center><a href="png/pico_hat_mounted_side.png"><img src="png/pico_hat_mounted_side_600.png" alt="pico hat pcb back" title="pico hat pcb back" /></a></center></p>
+
+<h3>The Pico-HAT Software</h3>
+
+<p>As stated both devices use I²C (TWI) interface. More infos about I²C can be found in my tutorials <a href="http://weigu.lu/tutorials/sensors2bus/05_buses/index.html">here</a>, or in German <a href="http://weigu.lu/tutorials/python_and_raspi/03_python_interface/index.html">here</a> or <a href="http://weigu.lu/tutorials/avr_assembler/pdf/MICEL_MODUL_D.pdf">here (pdf)</a>.</p>
+
+<p>Three years ago while using the Teensy 2.0 as slave with a Raspi I ran in some problems, but unfortunately didn't document them, so this time again I needed some time to get everything running, but this time I will document the problem :). Look at the end of the page! In short we need a write + read command in Python instead of only a read command to get it work.</p>
+
+<h4>Python program for the Raspi as I²C master</h4>
+
+<p>This test program sends the 3 bytes to the Pico, defining how often the onboard LED will blink and defining the delay time in ms between the toggling (command 0x0A). It reads 2x2 bytes from the Arduino (temperature (0x81) and humidity (0x82).</p>
+
+<div class="codehilite"><pre><span></span><code><span class="ch">#!/usr/bin/env python3</span>
+<span class="c1"># -*- coding: utf-8 -*-</span>
+    <span class="sd">&#39;&#39;&#39; pico_hat_i2c.py  weigu.lu</span>
+<span class="sd">        Raspberry Pi is Master, Pico is slave</span>
+<span class="sd">        This test program sends the 3 bytes to the Pico, defining how often</span>
+<span class="sd">        the onboard LED will blink and defining the delay time in ms between</span>
+<span class="sd">        the toggling (command 0x0A).</span>
+<span class="sd">        It reads 2x2 bytes from the Arduino (temperature (0x81) and humitity (0x82)</span>
+<span class="sd">        More infos on weigu.lu &#39;&#39;&#39;</span>
+
+    <span class="kn">import</span> <span class="nn">smbus</span>
+
+    <span class="n">PORT</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1"># (0 for rev.1, 1 for rev 2!)</span>
+    <span class="n">I2C</span> <span class="o">=</span> <span class="n">smbus</span><span class="o">.</span><span class="n">SMBus</span><span class="p">(</span><span class="n">PORT</span><span class="p">)</span>
+    <span class="n">PICO_I2C_ADDRESS</span> <span class="o">=</span> <span class="mh">0x20</span>
+
+    <span class="n">COMMAND_TEMP1</span> <span class="o">=</span> <span class="mh">0x81</span>  <span class="c1"># MSB = 1 for read</span>
+    <span class="n">COMMAND_HUM1</span> <span class="o">=</span> <span class="mh">0x82</span>
+    <span class="n">COMMAND_BLINK</span> <span class="o">=</span> <span class="mh">0x0A</span>  <span class="c1"># MSB = 0 for write</span>
+    <span class="n">BLINK_RATE</span> <span class="o">=</span> <span class="mi">10</span>       <span class="c1"># how many times to blink (1 byte)</span>
+    <span class="n">BLINK_DELAY</span> <span class="o">=</span> <span class="mi">50</span>      <span class="c1"># delay between toggling im ms (1 word)</span>
+
+    <span class="k">def</span> <span class="nf">get_sensor_data</span><span class="p">(</span><span class="n">command</span><span class="p">):</span>
+        <span class="sd">&#39;&#39;&#39; write command and read data (1 word)&#39;&#39;&#39;</span>
+        <span class="n">I2C</span><span class="o">.</span><span class="n">write_byte</span><span class="p">(</span><span class="n">PICO_I2C_ADDRESS</span><span class="p">,</span> <span class="n">command</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">I2C</span><span class="o">.</span><span class="n">read_word_data</span><span class="p">(</span><span class="n">PICO_I2C_ADDRESS</span><span class="p">,</span> <span class="n">command</span><span class="p">)</span><span class="o">/</span><span class="mf">100.0</span>
+
+    <span class="k">def</span> <span class="nf">set_blink</span><span class="p">(</span><span class="n">blink_command</span><span class="p">,</span> <span class="n">blink_rate</span><span class="p">,</span> <span class="n">blink_delay</span><span class="p">):</span>
+        <span class="sd">&#39;&#39;&#39; write to Pico: blink rate (1 byte) and delay (2 byte)&#39;&#39;&#39;</span>
+        <span class="n">blink</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1"># list for 3 bytes</span>
+        <span class="n">blink</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">blink_rate</span><span class="p">)</span>
+        <span class="n">blink</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">blink_delay</span><span class="o">//</span><span class="mi">256</span><span class="p">)</span>
+        <span class="n">blink</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">blink_delay</span><span class="o">%</span><span class="mi">256</span><span class="p">)</span>
+        <span class="n">I2C</span><span class="o">.</span><span class="n">write_i2c_block_data</span><span class="p">(</span><span class="n">PICO_I2C_ADDRESS</span><span class="p">,</span> <span class="n">blink_command</span><span class="p">,</span> <span class="n">blink</span><span class="p">)</span>
+
+    <span class="c1"># main: try the commands</span>
+    <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Temperature 1: &quot;</span><span class="p">,</span> <span class="n">get_sensor_data</span><span class="p">(</span><span class="n">COMMAND_TEMP1</span><span class="p">),</span> <span class="s2">&quot;°C&quot;</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Humidity 1:    &quot;</span><span class="p">,</span> <span class="n">get_sensor_data</span><span class="p">(</span><span class="n">COMMAND_HUM1</span><span class="p">),</span> <span class="s2">&quot;%&quot;</span><span class="p">)</span>
+    <span class="n">set_blink</span><span class="p">(</span><span class="n">COMMAND_BLINK</span><span class="p">,</span> <span class="n">BLINK_RATE</span><span class="p">,</span> <span class="n">BLINK_DELAY</span><span class="p">)</span>
+</code></pre></div>
+
+<h4>Arduino program: Pico as I²C slave</h4>
+
+<p>The Arduino core for the Pico is in an early state, but everything runs.
+Thanks to Earle F. Philhower, III :). All infos can be found on his Github page: <a href="https://github.com/earlephilhower/arduino-pico">https://github.com/earlephilhower/arduino-pico</a>.</p>
+
+<p>The Pico is connected through USB with one port of the Raspi. It is important to press the Pico boot button before and while connecting to the Raspi with the USB cable.</p>
+
+<p>Close the serial monitor before uploading a sketch (reopen afterwards).
+In the file-manager you can switch off the pop-up menu showing options for an inserted removable media (Filemanager -> Edit -> Preferences -> Volume Management -> Show available options...).</p>
+
+<div class="codehilite"><pre><span></span><code>    <span class="cm">/* pico_hat_i2c.ino   weigu.lu</span>
+<span class="cm">     * Raspberry Pi is Master, Pico is slave</span>
+<span class="cm">     * The Raspi program sends 3 bytes to the Pico, defining how often</span>
+<span class="cm">     * the onboard LED will blink and defining the delay time in ms between</span>
+<span class="cm">     * the toggling (command 0x0A).</span>
+<span class="cm">     * The pico responds with 2x2 bytes (temperature and humidity) when receiving</span>
+<span class="cm">     * the commands 0x81 and 0x82.</span>
+<span class="cm">     * More infos on weigu.lu</span>
+<span class="cm">     */</span>
+
+    <span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
+
+    <span class="c1">//#define DEBUG      // uncomment if more infos needed in serial monitor</span>
+
+    <span class="k">const</span> <span class="n">byte</span> <span class="n">PICO_I2C_ADDRESS</span> <span class="o">=</span> <span class="mh">0x20</span><span class="p">;</span>
+    <span class="k">const</span> <span class="n">byte</span> <span class="n">LED_PIN</span> <span class="o">=</span> <span class="n">LED_BUILTIN</span><span class="p">;</span>   <span class="c1">// LED_BUILTIN or other pin</span>
+    <span class="kt">bool</span> <span class="n">LED_LOGIC</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>                 <span class="c1">// positive logic: 1, negative logic: 0</span>
+    <span class="k">const</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">DELAY_MS</span> <span class="o">=</span> <span class="mi">3000</span><span class="p">;</span>
+    <span class="k">const</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">LED_BLINK_DELAY_MS</span> <span class="o">=</span> <span class="mi">100</span><span class="p">;</span>
+
+    <span class="k">struct</span> <span class="p">{</span>
+      <span class="kt">float</span> <span class="k">volatile</span> <span class="n">t1</span><span class="p">;</span> <span class="c1">// temperature</span>
+      <span class="kt">float</span> <span class="k">volatile</span> <span class="n">h1</span><span class="p">;</span> <span class="c1">// humidity</span>
+    <span class="p">}</span> <span class="n">tx_data</span><span class="p">;</span>
+
+    <span class="k">struct</span> <span class="p">{</span>
+      <span class="n">byte</span> <span class="k">volatile</span> <span class="n">blink_nr</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
+      <span class="n">word</span> <span class="k">volatile</span> <span class="n">blink_delay</span> <span class="o">=</span> <span class="mi">100</span><span class="p">;</span>
+    <span class="p">}</span> <span class="n">rx_data</span><span class="p">;</span>
+
+    <span class="n">byte</span> <span class="k">volatile</span> <span class="n">command</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="n">byte</span> <span class="k">volatile</span> <span class="n">rx_flag</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="n">byte</span> <span class="k">volatile</span> <span class="n">tx_flag</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">const</span> <span class="n">byte</span> <span class="n">tx_table_bytes</span> <span class="o">=</span> <span class="mi">20</span><span class="p">;</span>
+    <span class="n">byte</span> <span class="k">volatile</span> <span class="n">tx_table</span><span class="p">[</span><span class="n">tx_table_bytes</span><span class="p">];</span> <span class="c1">// prepare data for sending over I2C</span>
+
+    <span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span> <span class="p">{</span>
+      <span class="n">Serial</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="mi">115200</span><span class="p">);</span>             <span class="c1">// for debugging</span>
+      <span class="n">init_led</span><span class="p">();</span>
+      <span class="n">Wire</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="n">PICO_I2C_ADDRESS</span><span class="p">);</span>     <span class="c1">// join i2c bus</span>
+      <span class="n">Wire</span><span class="p">.</span><span class="n">onReceive</span><span class="p">(</span><span class="n">i2c_receive</span><span class="p">);</span>      <span class="c1">// i2c interrupt receive</span>
+      <span class="n">Wire</span><span class="p">.</span><span class="n">onRequest</span><span class="p">(</span><span class="n">i2c_transmit</span><span class="p">);</span>     <span class="c1">// i2c interrupt send</span>
+      <span class="n">tx_data</span><span class="p">.</span><span class="n">t1</span> <span class="o">=</span> <span class="mf">21.30</span><span class="p">;</span>               <span class="c1">// simulate a temperature</span>
+      <span class="n">tx_data</span><span class="p">.</span><span class="n">h1</span> <span class="o">=</span> <span class="mi">60</span><span class="p">;</span>                  <span class="c1">// simulate humidity value</span>
+    <span class="p">}</span>
+
+    <span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span> <span class="p">{</span>
+      <span class="n">blink_led_x_times</span><span class="p">(</span><span class="n">rx_data</span><span class="p">.</span><span class="n">blink_nr</span><span class="p">,</span><span class="n">rx_data</span><span class="p">.</span><span class="n">blink_delay</span><span class="p">);</span>
+      <span class="cp">#ifdef DEBUG</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">rx_flag</span><span class="p">)</span> <span class="p">{</span>
+          <span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="s">&quot;RX with &quot;</span> <span class="o">+</span> <span class="n">String</span><span class="p">(</span><span class="n">rx_flag</span><span class="p">)</span> <span class="o">+</span> <span class="s">&quot;byte; command: &quot;</span> <span class="o">+</span> <span class="n">String</span><span class="p">(</span><span class="n">command</span><span class="p">));</span>
+          <span class="n">rx_flag</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">tx_flag</span><span class="p">)</span> <span class="p">{</span>
+          <span class="n">print_tx_table</span><span class="p">();</span>
+          <span class="n">tx_flag</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+        <span class="p">}</span>
+      <span class="cp">#else</span>
+        <span class="n">delay</span><span class="p">(</span><span class="mi">3000</span><span class="p">);</span>
+      <span class="cp">#endif</span>
+    <span class="p">}</span>
+
+    <span class="kt">void</span> <span class="nf">i2c_receive</span><span class="p">(</span><span class="kt">int</span> <span class="n">bytes_count</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// bytes_count gives number of bytes in rx buffer</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">bytes_count</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>           <span class="c1">//  master checked only for presence</span>
+        <span class="k">return</span><span class="p">;</span>
+      <span class="p">}</span>
+      <span class="n">command</span> <span class="o">=</span> <span class="n">Wire</span><span class="p">.</span><span class="n">read</span><span class="p">();</span>
+      <span class="k">switch</span> <span class="p">(</span><span class="n">command</span><span class="p">)</span> <span class="p">{</span>   <span class="c1">// parse commands</span>
+        <span class="k">case</span> <span class="mh">0x0A</span><span class="o">:</span>  <span class="c1">// read three bytes (blink nr and delay time)</span>
+          <span class="n">rx_data</span><span class="p">.</span><span class="n">blink_nr</span> <span class="o">=</span> <span class="n">Wire</span><span class="p">.</span><span class="n">read</span><span class="p">();</span>
+          <span class="n">rx_data</span><span class="p">.</span><span class="n">blink_delay</span> <span class="o">=</span> <span class="n">Wire</span><span class="p">.</span><span class="n">read</span><span class="p">();</span>
+          <span class="n">rx_data</span><span class="p">.</span><span class="n">blink_delay</span> <span class="o">=</span> <span class="n">rx_data</span><span class="p">.</span><span class="n">blink_delay</span><span class="o">*</span><span class="mi">256</span> <span class="o">+</span> <span class="n">Wire</span><span class="p">.</span><span class="n">read</span><span class="p">();</span>
+          <span class="k">break</span><span class="p">;</span>
+        <span class="k">default</span><span class="o">:</span>
+          <span class="k">break</span><span class="p">;</span>
+      <span class="p">}</span>
+      <span class="n">rx_flag</span> <span class="o">=</span> <span class="n">bytes_count</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="kt">void</span> <span class="nf">i2c_transmit</span><span class="p">()</span> <span class="p">{</span>
+      <span class="n">byte</span> <span class="n">bytes_count</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="kt">int</span> <span class="n">tmp1</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>                     <span class="c1">// temporary variable</span>
+      <span class="k">switch</span> <span class="p">(</span><span class="n">command</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">case</span> <span class="mh">0x81</span><span class="o">:</span> <span class="c1">// temperature</span>
+          <span class="n">tmp1</span> <span class="o">=</span> <span class="kt">int</span><span class="p">(</span><span class="n">round</span><span class="p">(</span><span class="n">tx_data</span><span class="p">.</span><span class="n">t1</span> <span class="o">*</span> <span class="mi">100</span><span class="p">));</span>
+          <span class="n">tx_table</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">byte</span><span class="p">)(</span><span class="n">tmp1</span> <span class="o">&amp;</span> <span class="mh">0xFF</span><span class="p">);</span>
+          <span class="n">tx_table</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">byte</span><span class="p">)(</span><span class="n">tmp1</span> <span class="o">&gt;&gt;</span> <span class="mi">8</span><span class="p">);</span>
+          <span class="n">bytes_count</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+          <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="mh">0x82</span><span class="o">:</span> <span class="c1">// humidity</span>
+          <span class="n">tmp1</span> <span class="o">=</span> <span class="kt">int</span><span class="p">(</span><span class="n">round</span><span class="p">(</span><span class="n">tx_data</span><span class="p">.</span><span class="n">h1</span> <span class="o">*</span> <span class="mi">100</span><span class="p">));</span>
+          <span class="n">tx_table</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">byte</span><span class="p">)(</span><span class="n">tmp1</span> <span class="o">&amp;</span> <span class="mh">0xFF</span><span class="p">);</span>
+          <span class="n">tx_table</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">byte</span><span class="p">)(</span><span class="n">tmp1</span> <span class="o">&gt;&gt;</span> <span class="mi">8</span><span class="p">);</span>
+          <span class="n">bytes_count</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+          <span class="k">break</span><span class="p">;</span>
+        <span class="k">default</span><span class="o">:</span>
+          <span class="k">break</span><span class="p">;</span>
+      <span class="p">}</span>
+      <span class="k">for</span> <span class="p">(</span><span class="n">byte</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">bytes_count</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">Wire</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">tx_table</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+      <span class="p">}</span>
+      <span class="n">tx_flag</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="kt">void</span> <span class="nf">print_tx_table</span><span class="p">()</span> <span class="p">{</span>
+      <span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="s">&quot;Transmit Table&quot;</span><span class="p">);</span>
+      <span class="k">for</span> <span class="p">(</span><span class="n">byte</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">tx_table_bytes</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;  &quot;</span> <span class="o">+</span> <span class="n">String</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="o">+</span> <span class="s">&quot;: &quot;</span> <span class="o">+</span> <span class="n">String</span><span class="p">(</span><span class="n">tx_table</span><span class="p">[</span><span class="n">i</span><span class="p">]));</span>
+      <span class="p">}</span>
+      <span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">();</span>
+    <span class="p">}</span>
+
+    <span class="cm">/****** LED HELPER functions *************************************************/</span>
+
+    <span class="c1">// initialise the build in LED and switch it on</span>
+    <span class="kt">void</span> <span class="nf">init_led</span><span class="p">()</span> <span class="p">{</span>
+      <span class="n">pinMode</span><span class="p">(</span><span class="n">LED_PIN</span><span class="p">,</span><span class="n">OUTPUT</span><span class="p">);</span>
+      <span class="n">led_on</span><span class="p">();</span>
+    <span class="p">}</span>
+
+    <span class="c1">// LED on</span>
+    <span class="kt">void</span> <span class="nf">led_on</span><span class="p">()</span> <span class="p">{</span>
+      <span class="n">LED_LOGIC</span> <span class="o">?</span> <span class="n">digitalWrite</span><span class="p">(</span><span class="n">LED_PIN</span><span class="p">,</span><span class="n">HIGH</span><span class="p">)</span> <span class="o">:</span> <span class="n">digitalWrite</span><span class="p">(</span><span class="n">LED_PIN</span><span class="p">,</span><span class="n">LOW</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="c1">// LED off</span>
+    <span class="kt">void</span> <span class="nf">led_off</span><span class="p">()</span> <span class="p">{</span>
+      <span class="n">LED_LOGIC</span> <span class="o">?</span> <span class="n">digitalWrite</span><span class="p">(</span><span class="n">LED_PIN</span><span class="p">,</span><span class="n">LOW</span><span class="p">)</span> <span class="o">:</span> <span class="n">digitalWrite</span><span class="p">(</span><span class="n">LED_PIN</span><span class="p">,</span><span class="n">HIGH</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="c1">// blink LED x times (LED was on) with delay_time_ms</span>
+    <span class="kt">void</span> <span class="nf">blink_led_x_times</span><span class="p">(</span><span class="n">byte</span> <span class="n">x</span><span class="p">,</span> <span class="n">word</span> <span class="n">delay_time_ms</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">for</span><span class="p">(</span><span class="n">byte</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">x</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// Blink x times</span>
+        <span class="n">led_off</span><span class="p">();</span>
+        <span class="n">delay</span><span class="p">(</span><span class="n">delay_time_ms</span><span class="p">);</span>
+        <span class="n">led_on</span><span class="p">();</span>
+        <span class="n">delay</span><span class="p">(</span><span class="n">delay_time_ms</span><span class="p">);</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+</code></pre></div>
+
+<!--When we use read_i2c_block_data(), It was too fast to write a command byte and read the data.
+In that time, if we use Serial.println() to print log to serial. Arduino will can not follow the speed. and it missing the i2c read flag.
+So, the dataReceive() funtion will not be run at all.
+The solution is simple: just do not use Serial library until the i2c is free.
+ -->
+
+<h4>Arduino Wire lib not working as expected</h4>
+
+<p>Here the python code to test the communication:</p>
+
+<div class="codehilite"><pre><span></span><code>    <span class="c1">#!/usr/bin/env python3</span>
+    <span class="c1"># -*- coding: utf-8 -*-</span>
+    <span class="c1"># pico_raspi_i2c_test.py  weigu.lu  Raspberry Pi is Master, Pico is slave</span>
+
+    <span class="kn">import</span> <span class="nn">smbus</span>
+    <span class="kn">import</span> <span class="nn">time</span>
+
+    <span class="n">PORT</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1"># (0 for rev.1, 1 for rev 2!)</span>
+    <span class="n">I2c</span> <span class="o">=</span> <span class="n">smbus</span><span class="o">.</span><span class="n">SMBus</span><span class="p">(</span><span class="n">PORT</span><span class="p">)</span>
+    <span class="n">PICO_I2C_ADDRESS</span> <span class="o">=</span> <span class="mh">0x20</span>
+    <span class="n">command</span> <span class="o">=</span> <span class="mh">0x64</span>
+
+    <span class="c1">#I2c.write_byte(PICO_I2C_ADDRESS,command)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.001</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="nb">hex</span><span class="p">(</span><span class="n">I2c</span><span class="o">.</span><span class="n">read_byte_data</span><span class="p">(</span><span class="n">PICO_I2C_ADDRESS</span><span class="p">,</span><span class="n">command</span><span class="p">)))</span>
+</code></pre></div>
+
+<p><center><a href="png/osci_screen_read_from raspi.png"><img src="png/osci_screen_read_from raspi.png" alt="osci screen" title="osci screen" /></a></center></p>
+
+<p>The Python lib is working correctly as the Osci screen shows. The program returns <code>0x30</code> as expected.</p>
+
+<p>The problem is that no receive interrupt is generated by this read, so we have no possibility to read the command in our Arduino program. A simple workaround is to send first a write and then a read in the Python program:</p>
+
+<div class="codehilite"><pre><span></span><code>   <span class="o">...</span>
+    <span class="n">I2c</span><span class="o">.</span><span class="n">write_byte</span><span class="p">(</span><span class="n">PICO_I2C_ADDRESS</span><span class="p">,</span><span class="n">command</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.001</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="nb">hex</span><span class="p">(</span><span class="n">I2c</span><span class="o">.</span><span class="n">read_byte_data</span><span class="p">(</span><span class="n">PICO_I2C_ADDRESS</span><span class="p">,</span><span class="n">command</span><span class="p">)))</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p>Here is the Arduino code for the test:</p>
+
+<div class="codehilite"><pre><span></span><code>    <span class="c1">// pico_raspi_i2c_test.ino    weigu.lu </span>
+
+    <span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
+
+    <span class="k">const</span> <span class="n">byte</span> <span class="n">PICO_I2C_ADDRESS</span> <span class="o">=</span> <span class="mh">0x20</span><span class="p">;</span>
+    <span class="n">byte</span> <span class="k">volatile</span> <span class="n">rx_flag</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="n">byte</span> <span class="k">volatile</span> <span class="n">tx_flag</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="n">byte</span> <span class="k">volatile</span> <span class="n">rx_buffer</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">};</span>
+    <span class="n">byte</span> <span class="k">volatile</span> <span class="n">tx_buffer</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">};</span>
+
+    <span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span> <span class="p">{</span>
+      <span class="n">Serial</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="mi">115200</span><span class="p">);</span>  <span class="c1">// for debugging</span>
+      <span class="n">Wire</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="n">PICO_I2C_ADDRESS</span><span class="p">);</span>    <span class="c1">// join i2c bus</span>
+      <span class="n">Wire</span><span class="p">.</span><span class="n">onReceive</span><span class="p">(</span><span class="n">i2c_receive</span><span class="p">);</span>     <span class="c1">// i2c interrupt receive</span>
+      <span class="n">Wire</span><span class="p">.</span><span class="n">onRequest</span><span class="p">(</span><span class="n">i2c_transmit</span><span class="p">);</span>    <span class="c1">// i2c interrupt send </span>
+    <span class="p">}</span>
+
+    <span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span> <span class="p">{</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">rx_flag</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">for</span> <span class="p">(</span><span class="n">byte</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">rx_flag</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+          <span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;RX: &quot;</span><span class="p">);</span>
+          <span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">rx_buffer</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+          <span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="sc">&#39;\t&#39;</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="sc">&#39;\n&#39;</span><span class="p">);</span>
+        <span class="n">rx_flag</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+      <span class="p">}</span>
+
+      <span class="k">if</span> <span class="p">(</span><span class="n">tx_flag</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="s">&quot;TX&quot;</span><span class="p">);</span>
+        <span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="n">rx_buffer</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+        <span class="n">tx_flag</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+      <span class="p">}</span>  
+      <span class="n">delay</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span> 
+    <span class="p">}</span>
+
+    <span class="kt">void</span> <span class="nf">i2c_receive</span><span class="p">(</span><span class="kt">int</span> <span class="n">bytes_count</span><span class="p">)</span> <span class="p">{</span>  <span class="c1">// bytes_count gives number of bytes in rx buffer    </span>
+      <span class="k">for</span> <span class="p">(</span><span class="n">byte</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">bytes_count</span><span class="p">;</span><span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">rx_buffer</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">Wire</span><span class="p">.</span><span class="n">read</span><span class="p">();</span> 
+      <span class="p">}</span>  
+      <span class="n">rx_flag</span> <span class="o">=</span> <span class="n">bytes_count</span><span class="p">;</span>
+    <span class="p">}</span>
+
+
+    <span class="kt">void</span> <span class="nf">i2c_transmit</span><span class="p">()</span> <span class="p">{</span> 
+      <span class="n">tx_flag</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="n">Wire</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="s">&quot;0&quot;</span><span class="p">);</span>
+    <span class="p">}</span>
+</code></pre></div>
+
+<h3>Downloads</h3>
+
+<ul>
+<li>[Everithing on github()]</li>
+</ul>
+
+<h3>Interesting links</h3>
+
+<ul>
+<li><a href="https://arduino-pico.readthedocs.io/en/latest/wire.html">https://arduino-pico.readthedocs.io/en/latest/wire.html</a></li>
+</ul>
+
+<p><br></p>
+
+</div> <!-- Content -->
+
+<!-- Footer -->
+<div id="footer">
+  <ul id="footerl2">
+  </ul>
+  <ul id="footerl2">
+    <li><a href="../../../news.html" title="NEWS">NEWS</a></li>
+    <li><a href="../../../disclaimer.html" title="DISCLAIMER &amp; COPYRIGHT">DISCLAIMER &amp; COPYRIGHT</a></li>
+    <li><a href="../../../sitemap.html" title="SITEMAP">SITEMAP</a></li>
+  </ul>
+  <ul id="footerl3">
+    <li>contact:</li>
+    <li><img src="../../../png/email.png" alt="Kontakt-Adresse"/></li>
+  </ul>
+</div> <!-- Footer -->
+
+</body>
+</html>
