@@ -1,6 +1,6 @@
 # Pico-HAT: Connect your Raspi with the Pico through I²C
 
-<center>![pico hat](png/pico_hat_600.png "pico hat")</center>
+![pico hat](png/pico_hat_600.png "pico hat")
 
 ## Some infos
 
@@ -11,11 +11,11 @@ As the Arduino IDE runs on a Raspi, both device (Raspi and Pico) can be reprogra
 ### Features
 
 + The Raspi is connected through I²C with the Pico. Serial is prepared if needed (by adding 2 0&#8239;Ω resistors).
- 
+
 + The Pico can be powered over USB (recommended if you want to reprogram it via Arduino IDE and VNC) or through the Raspi (5&#8239;V).
- 
+
 + All GPIOs have the possibility to add a voltage divider to reduce the input voltage (e.g. 5&#8239;V to 3.3&#8239;V), or to add an external pull-down resistor.
- 
+
 + All headers have beneath a ground pin, one or two power pins (3.3&#8239;V or 5&#8239;V; `H2` headers: 3.3&#8239;V and 5&#8239;V).
 
 + Additionally we get a RESET-button, an `SWD` header, 2 power header (3.3&#8239;V and 5&#8239;V), 2 Ground pins, an an 3V3_EN and ADC\_VREF pins.
@@ -43,6 +43,4 @@ The circuit is designed with KiCAD and is open hardware. The following headers a
 | `H1x4` | GND | GPIO21 | GPIO20 | GPIO19 | GPIO18 | 3.3&#8239;V (or 5&#8239;V) |
 | `H2x4` | GND | GPIO2 | GPIO3 | GPIO4 | GPIO5 | 3.3&#8239;V | 5&#8239;V |
 
-## Much more infos on:
-
-weigu.lu/microcontroller/pico_hat/index.html 
+## Much more infos on: <weigu.lu/microcontroller/pico_hat/index.html>
